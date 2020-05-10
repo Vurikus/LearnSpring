@@ -1,12 +1,10 @@
-package myProject.OOP.timeTable;
+package myProject.springAnn.timeTable;
 
-import myProject.OOP.dishes.interfaces.IDish;
-import myProject.OOP.dishes.interfaces.IMainDish;
-import myProject.OOP.dishes.mainDish.Omelet;
-import myProject.OOP.ingestion.Breakfast;
-import myProject.OOP.ingestion.Dinner;
-import myProject.OOP.ingestion.Ingestion;
-import myProject.OOP.ingestion.Supper;
+import myProject.springAnn.dishes.interfaces.IDish;
+import myProject.springAnn.ingestion.Breakfast;
+import myProject.springAnn.ingestion.Dinner;
+import myProject.springAnn.ingestion.Ingestion;
+import myProject.springAnn.ingestion.Supper;
 
 import java.util.List;
 

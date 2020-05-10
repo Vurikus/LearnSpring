@@ -1,12 +1,12 @@
-package myProject.OOP.ingestion;
+package myProject.springAnn.ingestion;
 
-import myProject.OOP.dishes.cake.LemonCake;
-import myProject.OOP.dishes.drink.Tea;
-import myProject.OOP.dishes.interfaces.IBakery;
-import myProject.OOP.dishes.interfaces.IDish;
-import myProject.OOP.dishes.interfaces.IDrinks;
-import myProject.OOP.dishes.interfaces.IMainDish;
-import myProject.OOP.dishes.mainDish.Omelet;
+import myProject.springAnn.dishes.cake.LemonCake;
+import myProject.springAnn.dishes.drink.Tea;
+import myProject.springAnn.dishes.interfaces.IBakery;
+import myProject.springAnn.dishes.interfaces.IDish;
+import myProject.springAnn.dishes.interfaces.IDrinks;
+import myProject.springAnn.dishes.interfaces.IMainDish;
+import myProject.springAnn.dishes.mainDish.Omelet;
 
 import java.util.ArrayList;
 import java.util.List;

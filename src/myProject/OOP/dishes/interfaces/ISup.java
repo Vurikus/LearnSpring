@@ -1,5 +1,4 @@
 package myProject.OOP.dishes.interfaces;
 
-public interface IDrinks extends IDish{
-
+public interface ISup extends IDish{
 }

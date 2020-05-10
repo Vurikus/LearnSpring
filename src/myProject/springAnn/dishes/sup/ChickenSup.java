@@ -1,9 +1,9 @@
-package myProject.OOP.dishes.mainDish;
+package myProject.springAnn.dishes.sup;
 
-import myProject.OOP.dishes.interfaces.IDish;
-import myProject.OOP.dishes.interfaces.IMainDish;
+import myProject.springAnn.dishes.interfaces.IDish;
+import myProject.springAnn.dishes.interfaces.ISup;
 
-public class ChickenSup implements IDish, IMainDish {
+public class ChickenSup implements IDish, ISup {
     //Field
 
     //Constructor

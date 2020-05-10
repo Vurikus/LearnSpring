@@ -1,7 +1,10 @@
 package myProject.OOP;
 
+import myProject.OOP.dishes.interfaces.IDish;
 import myProject.OOP.timeTable.CallOfDay;
 import myProject.OOP.timeTable.Delivery;
+
+import java.util.List;
 
 
 public class OOPmetod {
@@ -13,8 +16,8 @@ public class OOPmetod {
     public void start(){
         CallOfDay.requestDay();
         Delivery delivery = new Delivery();
-        String namesDishes = delivery.getIngestion().getNamesDishes();
-        System.out.println(namesDishes);
+        List<IDish> dishList = delivery.getIngestion();
+        delivery.readDishesList(dishList);
     }
 
 }

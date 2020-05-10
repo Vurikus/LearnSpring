@@ -1,6 +1,10 @@
 package myProject;
 
 import myProject.OOP.OOPmetod;
+import myProject.springXML.SpringXML;
+
+import java.time.DayOfWeek;
+import java.time.LocalDate;
 
 public class Main {
     //Field
@@ -9,8 +13,9 @@ public class Main {
 
     //Function
     public static void main(String[] args) {
-        OOPmetod();
-        //springXMLmetod();
+        //OOPmetod();
+
+        springXMLmetod();
         //springAnnMetod();
     }
 
@@ -20,6 +25,8 @@ public class Main {
     }
 
     private static  void springXMLmetod (){
+        SpringXML springXML = new SpringXML();
+        springXML.start();
 
     }
 

@@ -1,4 +1,4 @@
-package myProject.OOP.timeTable;
+package myProject.springXML.timeTable;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;

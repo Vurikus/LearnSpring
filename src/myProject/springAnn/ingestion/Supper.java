@@ -1,17 +1,17 @@
-package myProject.OOP.ingestion;
+package myProject.springAnn.ingestion;
 
-import myProject.OOP.dishes.cake.LemonCake;
-import myProject.OOP.dishes.drink.Tea;
-import myProject.OOP.dishes.interfaces.IBakery;
-import myProject.OOP.dishes.interfaces.IDish;
-import myProject.OOP.dishes.interfaces.IDrinks;
-import myProject.OOP.dishes.interfaces.IMainDish;
-import myProject.OOP.dishes.mainDish.Hamburger;
+import myProject.springAnn.dishes.cake.LemonCake;
+import myProject.springAnn.dishes.drink.Tea;
+import myProject.springAnn.dishes.interfaces.IBakery;
+import myProject.springAnn.dishes.interfaces.IDish;
+import myProject.springAnn.dishes.interfaces.IDrinks;
+import myProject.springAnn.dishes.interfaces.IMainDish;
+import myProject.springAnn.dishes.mainDish.Hamburger;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Supper extends Ingestion{
+public class Supper extends Ingestion {
     //Field
     private IMainDish mainDish = new Hamburger();
     private IDrinks drink = new Tea();

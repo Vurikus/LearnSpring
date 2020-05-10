@@ -1,4 +1,4 @@
 package myProject.OOP.dishes.interfaces;
 
-public interface IMainDish{
+public interface IMainDish extends IDish{
 }

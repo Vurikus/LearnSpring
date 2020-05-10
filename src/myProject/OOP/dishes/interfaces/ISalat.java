@@ -1,4 +1,4 @@
 package myProject.OOP.dishes.interfaces;
 
-public interface ISalat{
+public interface ISalat extends IDish{
 }

@@ -1,6 +1,6 @@
-package myProject.OOP.ingestion;
+package myProject.springXML.ingestion;
 
-import myProject.OOP.dishes.interfaces.IDish;
+import myProject.springXML.dishes.interfaces.IDish;
 
 import java.util.List;
 
